@@ -21,7 +21,8 @@ button {
   padding: 6px 22px;
   border-radius: 4px;
   cursor: pointer;
-  color: #fff
+  color: #fff;
+  font-weight: bold;
 }
 
 button:hover {
