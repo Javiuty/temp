@@ -1,4 +1,6 @@
 const $container = document.querySelector('#container');
+const $blackWhite = document.querySelector('.black-white');
+const $colors = document.querySelector('.colors');
 
 const iterate = Array.from(Array(28).keys())
 
@@ -14,4 +16,12 @@ iterate.forEach((number) => {
   div.append(img)
   div.append(p)
   $container.append(div)
+})
+
+$blackWhite.addEventListener('click', () => {
+  $container.style.filter = 'grayscale(1)'
+})
+
+$colors.addEventListener('click', () => {
+  $container.style.filter = 'grayscale(0)'
 })
