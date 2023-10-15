@@ -2,7 +2,7 @@ const $container = document.querySelector('#container');
 const $blackWhite = document.querySelector('.black-white');
 const $colors = document.querySelector('.colors');
 
-const iterate = Array.from(Array(28).keys())
+const iterate = Array.from(Array(25).keys())
 
 iterate.forEach((number) => {
   const div = document.createElement('div')
